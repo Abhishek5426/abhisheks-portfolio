@@ -19,3 +19,21 @@ Stage Summary:
 - Key files: src/app/page.tsx, src/app/layout.tsx, src/app/globals.css, src/lib/portfolio-data.ts, public/images/abhishek.png, public/resume/Abhishek_Benni_Resume.pdf
 - Screenshots saved in /home/z/my-project/download/ (desktop hero, mobile hero)
 - Dev server running cleanly on port 3000 (GET / 200, no runtime errors)
+
+---
+Task ID: 2
+Agent: Z.ai main agent
+Task: User requested renaming the portfolio URL (n1kts8brr6e0-d.space-z.ai) to "abhisheksportfolio"
+
+Work Log:
+- Explained that space-z.ai preview URLs are platform-assigned and cannot be renamed; the real solution is deploying to Vercel like the friend's site
+- Checked vercel.app subdomain availability: abhisheksportfolio.vercel.app TAKEN (Abhishek Chodavarapu), abhisheks-portfolio.vercel.app TAKEN (Abhishek Solanki), abhishekbenni.vercel.app FREE, abhishekbenni-portfolio.vercel.app FREE
+- Renamed package.json name to "abhishekbenni-portfolio"
+- Verified production build passes (bun run build: static homepage, 0 errors)
+- Created DEPLOY.md with GitHub-import and Vercel CLI step-by-step instructions + custom domain notes
+- Packaged clean deploy-ready source zip (184KB, 81 files) at download/abhishekbenni-portfolio.zip excluding node_modules/.next/db/skills/.git/upload/examples
+
+Stage Summary:
+- Recommended final URL: https://abhishekbenni.vercel.app (user's real name, free, professional)
+- Deliverable: download/abhishekbenni-portfolio.zip + DEPLOY.md instructions inside project
+- No source code changes beyond package.json name; site functionality untouched
